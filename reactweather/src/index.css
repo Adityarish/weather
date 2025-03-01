@@ -1,0 +1,42 @@
+/* App.css */
+.weather-card {
+    max-width: 450px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: #f9f9f9;
+    margin: 20px;
+  }
+  
+  .weather-card h2 {
+    margin: 0 0 15px 0;
+    color: #333;
+  }
+  
+  .hourly-forecast {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+  }
+  
+  .hour {
+    text-align: center;
+    min-width: 60px;
+  }
+  
+  .time {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin: 5px 0;
+  }
+  
+  .temp {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+  }
